@@ -1,7 +1,7 @@
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/b873b99b-02f7-4bec-82f5-ff0ea44a3df2" />
 
 
-  # 0xScribe (链上判官) ⚖️
+  # 0xScribe 链上判官 ⚖️
 
   ### "Wallet is your History. AI is the Judge."
   ### 钱包即历史，AI 即判官。
@@ -52,7 +52,7 @@
 
 本项目严格遵循 **SpoonOS Framework** 的设计范式，构建了一个基于图（Graph）的 Agent 系统。
 
-```mermaid
+```
 graph LR
     A[Frontend: Next.js] -- "POST /api/judge" --> B(Backend: Route Handler)
     B -- "Invoke" --> C{SpoonOS Graph (Python)}
