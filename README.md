@@ -1,4 +1,4 @@
-# SPARK AI Hackathon
+# SPARK AI Hackatho
 
 <!-- [English](/docs/README_EN-US.md) | [简体中文](/docs/README_ZH-CN.md) -->
 
