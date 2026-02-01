@@ -1,7 +1,5 @@
-<img width="1536" height="1024" alt="ChatGPT Image 2026年2月1日 02_22_32" src="https://github.com/user-attachments/assets/97662854-f505-4159-92c1-f2d731a0883f" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/b873b99b-02f7-4bec-82f5-ff0ea44a3df2" />
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/placeholder-image-id" alt="0xScribe Banner" width="100%" />
 
   # 0xScribe (链上判官) ⚖️
 
@@ -9,12 +7,7 @@
   ### 钱包即历史，AI 即判官。
 
   <p align="center">
-    <a href="#-project-intro">Intro</a> •
-    <a href="#-demo-highlights">Highlights</a> •
-    <a href="#-directory-structure">Structure</a> •
-    <a href="#-getting-started">Run Locally</a> •
-    <a href="#-troubleshooting">Troubleshooting</a> •
-    <a href="#-learn-more">Next.js Docs</a>
+    
   </p>
 
   ![License](https://img.shields.io/badge/license-MIT-green)
