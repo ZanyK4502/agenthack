@@ -1,3 +1,9 @@
+<img width="1536" height="1024" alt="ChatGPT Image 2026年2月1日 02_22_32" src="https://github.com/user-attachments/assets/97662854-f505-4159-92c1-f2d731a0883f" />
+
+
+
+
+
 his is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
