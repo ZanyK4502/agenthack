@@ -1,219 +1,204 @@
-# SPARK AI Hackatho
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/b873b99b-02f7-4bec-82f5-ff0ea44a3df2" />
 
-<!-- [English](/docs/README_EN-US.md) | [简体中文](/docs/README_ZH-CN.md) -->
 
-<!-- 
-📌 占位符说明：
-- [BANNER_IMAGE_PATH] - 活动主视觉图片路径
-- [ACTIVITY_THEME] - 活动主题
-- [REGISTRATION_FORM_LINK] - 报名表单链接
-- [VIDEO_TUTORIAL_BILIBILI] - Bilibili 教程视频
-- [VIDEO_TUTORIAL_YOUTUBE] - YouTube 教程视频
-- [ZOOM_LINK] - Demo Day Zoom 链接
--->
+  # 0xScribe 链上判官 ⚖️
 
-🧬 这是一次大胆、轻松愉快、不卷的黑客松。我们不强求技术壁垒，而是鼓励跨界创意。就算你没有代码基础，也可以借助 AI 工具生成代码模块，非技术类参赛者也可以用 Figma 画一个界面、写一份提案、录一个 Demo 视频——我们要的是"理念呈现与思维创新"，加入黑客松，开启你的 Agent 创新体验！
+  ### "Wallet is your History. AI is the Judge."
+  ### 钱包即历史，AI 即判官。
 
-## 📊 活动主视觉
+  <p align="center">
+    
+  </p>
 
-![Agent Hack Banner][BANNER_IMAGE_PATH]
+  ![License](https://img.shields.io/badge/license-MIT-green)
+  ![Track](https://img.shields.io/badge/Track-SpoonOS_LLM_App-blueviolet)
+  ![Stack](https://img.shields.io/badge/Stack-Next.js_Python_SpoonOS-blue)
+</div>
 
-## 01 | 报名方式与议程安排
 
-📍 线上举行｜自由报名（面向所有人）
+## 📖 Project Intro (项目简介)
 
-| 活动                 | 时间                      | 形式    | 相关链接                                                        |
-| -------------------- | ------------------------- | ------- | --------------------------------------------------------------- |
-| **开始报名**   | [REGISTRATION_START_DATE] | 📍 线上 | **👉 [点击此处填写报名表](https://github.com/CasualHackathon/agenthack/issues/new?template=register.md)** |
-| 🗓**Open Day** | [OPEN_DAY_DATE_TIME]      | 📍 线上 | [提交 Demo][REGISTRATION_FORM_LINK]                             |
-| 🏁**Demo Day** | [DEMO_DAY_DATE_TIME]      | 📍 线上 | [Zoom 链接][ZOOM_LINK]                                          |
+**0xScribe** 是一个基于 **SpoonOS Graph Agent** 的「链上判官」AI 应用。
 
-**报名教程：**
+区块链是极度透明的，但**“可查”不代表“可懂”**。普通用户面对的是冰冷的哈希值和复杂的交易日志。**0xScribe** 旨在解决这一痛点：
+它输入钱包地址，系统自动抓取并解释链上交互，生成极具赛博风格的**“判决书”**、**标签**与**五维能力图谱**，并为每一条结论提供**可点击的区块浏览器证据链接 (Click-to-Verify)**。
 
-- [Bilibili][VIDEO_TUTORIAL_BILIBILI]
-- [YouTube][VIDEO_TUTORIAL_YOUTUBE]
+无论是 **Degen (赌狗)**、**Whale (巨鲸)**、**Hunter (撸毛党)** 还是 **Builder (工匠)**，AI 都能精准识别并给出审判。
+https://x.com/0xChampagneee/status/2017933443431321840 这个是项目展示视频
+---
 
-### **注意事项：**
+## ✨ Demo Highlights 
 
-1. 禁止修改他人信息。
-2. 提交 Demo 时必须先完成注册，否则提交无效。
-3. 提交资料时，只在对应位置填写信息，不要修改其它基础内容，特别是 issues title。
-4. 提交报名后，预计1分钟内会显示在下方报名列表中，如未显示请联系相关技术人员。
-5. 提交 Demo 时，请先 Fork 当前代码库，然后将 Demo 相关代码，放到以你 Github ID 命名的目录下，如：`/submission/[your-github-account]`，然后再提交 PR，我们会在审阅后合并，禁止修改其它信息。
+### 1. ⚖️ 一键审判 (One-Click Judgment)
+* 输入地址 → 自动输出判决书 + 五维能力图谱 (**WEALTH / HOLDING / GOVERNANCE / BUILDER / DEGEN**)。
+* 视觉反馈：数值动画从 0 动态增长，配合赛博朋克 UI，沉浸感拉满。
 
-## 02 | 赛道与主题
+### 2. 🔗 可验证证据 (Click-to-Verify)
+* **拒绝 AI 瞎编**：Merits (功) 与 Charges (罪) 的每一条目，都附带 `🔗` 链接。
+* **Etherscan v2 集成**：直接跳转到区块浏览器的真实 Transaction 页面，所见即所得。
 
-**活动主题：** 基于 AI Agent 的创新应用与工作流探索
+### 3. 🛡️ 稳定演示机制 (Robust Demo)
+为了保证黑客松演示期间的绝对稳定，系统内置**智能回退策略**，并通过 `risk_flags` 显式告知评委：
+* **Live Mode**: 能拉到真实交易 → 用真实 Hash 生成 Proof Links。
+* **Fallback Mode**: 网络超时/地址无记录 → 自动回退到 Sample Proof Links，**保证 Demo 流程不崩**。
 
-**赛道设置：**
-
-### 🤖 SpoonOS Track: AI Agent
-
-* **核心挑战：** 基于 SpoonOS Framework 调用 LLM，构建可执行的 AI 应用或 Agent 工作流。
-* **奖励权益：** 💰 **SpoonOS 专项奖金池** + 官方技术指导
-* **技术支持：** [文档链接待更新]
-
-### 🪁 Kite AI Track: Payment Solutions
-
-* **核心挑战：** 探索 AI/Agent 场景下的自动化支付、链上结算与资金流转方案。
-* **奖励权益：** 🎁 **Kite AI 生态激励** + 早期开发者支持
-
-### 📈 ScalingX Track: Prediction Market
-
-* **核心挑战：** 设计具备扩展性的预测市场结构及数据激励机制。
-* **奖励权益：** 🏆 **ScalingX 优胜奖励**
-
-## 03 | 项目提交要求
-
-**截止时间：** [SUBMISSION_DEADLINE] 前（UTC+8）
-
-请通过 GitHub Issues 提交以下材料：
-
-- ✅ 项目 GitHub 仓库（必须开源）
-- ✅ 可选: 演示幻灯片（PDF 或幻灯片格式）
-- ✅ 项目摘要（包括功能概述、用例和核心亮点）
-- ✅ 可选：演示视频或用户指南
-- ✅ 每个核心团队成员的联系信息（微信 / 邮箱 / 钱包地址）
+### 4. 🎭 Web3 原生梗 (Interactive Memes)
+* **V神彩蛋**: 输入 Vitalik 地址 (`0xd8da...`) 触发隐藏的神级模式。
+* **赛博风格**: CRT 扫描线 + 呼吸网格背景 + 打字机音效。
 
 ---
 
-## 04 | Demo Day 展示指南
+## 🧠 System Architecture (系统架构)
 
-**时间：** [DEMO_DAY_DATE_TIME] (UTC+8)
+本项目严格遵循 **SpoonOS Framework** 的设计范式，构建了一个基于图（Graph）的 Agent 系统。
 
-**展示安排：**
+```
+graph LR
+    A[Frontend: Next.js] -- "POST /api/judge" --> B(Backend: Route Handler)
+    B -- "Invoke" --> C{SpoonOS Graph (Python)}
+    C -- "Orchestrate" --> D[Analysis & Verdict Generation]
+    B -- "Fetch Live Tx" --> E[Etherscan API v2]
+    E -- "Tx Hashes" --> B
+    D --> B
+    B -- "JSON Response (Verdict + Proofs)" --> A
+    A -- "Render UI" --> F[User Screen]
 
-- 每个团队一般有 5 - 8 分钟的展示时间，但会视最终提交 Demo 数调整每个项目的具体展示时间——请合理安排时间
-- 演示建议内容：
-  - 项目介绍
-  - 解决的问题
-  - 核心功能演示
-  - 技术见解
-- 项目将按照提交顺序进行展示
-- Zoom 链接：[ZOOM_LINK]
 
-## 05 | 评委阵容
 
-| 姓名           | 身份            | 专长                |
-| -------------- | --------------- | ------------------- |
-| [JUDGE_1_NAME] | [JUDGE_1_TITLE] | [JUDGE_1_EXPERTISE] |
-| [JUDGE_2_NAME] | [JUDGE_2_TITLE] | [JUDGE_2_EXPERTISE] |
-| [JUDGE_3_NAME] | [JUDGE_3_TITLE] | [JUDGE_3_EXPERTISE] |
-| [JUDGE_4_NAME] | [JUDGE_4_TITLE] | [JUDGE_4_EXPERTISE] |
-| [JUDGE_5_NAME] | [JUDGE_5_TITLE] | [JUDGE_5_EXPERTISE] |
+```
 
-## 06 | 奖项设置
+## 📦 Directory Structure (目录结构)
+本目录是一个可独立运行的 Next.js 项目。 注意：已移除 .env.local 与 Python 虚拟环境 spoon-env/；如需运行请按下方指南配置。
+```
+Plaintext
+submission/ZanyK4502/
+├── src/
+│   ├── app/page.tsx           # 主 UI（输入、按钮、判词卡、五维图谱）
+│   └── app/api/judge/route.ts # 后端接口（调用 SpoonOS + Etherscan v2）
+├── spoonos/
+│   └── judge_graph.py         # SpoonOS Graph Agent (Python 核心逻辑)
+├── ledger/
+│   └── sampleA.json           # 演示用 Mock Ledger (Fallback 时的 proof 数据来源)
+├── public/                    # 静态资源 (Next.js fonts, icons)
+├── package.json               # 前端依赖
+└── README.md                  # 项目说明
 
-| 奖项            | 奖励              | 数量                 |
-| --------------- | ----------------- | -------------------- |
-| 🥇 一等奖       | [FIRST_PRIZE]     | [FIRST_PRIZE_COUNT]  |
-| 🥈 二等奖       | [SECOND_PRIZE]    | [SECOND_PRIZE_COUNT] |
-| 🥉 三等奖       | [THIRD_PRIZE]     | [THIRD_PRIZE_COUNT]  |
-| 🎖️ 最佳创意奖 | [BEST_IDEA_PRIZE] | [BEST_IDEA_COUNT]    |
-| 🎖️ 最佳技术奖 | [BEST_TECH_PRIZE] | [BEST_TECH_COUNT]    |
+```
 
-## 07 | 赞助商与合作伙伴
+## 🚀 Getting Started (本地运行指南)
+环境要求:
 
-<table>
-    <tr>
-        <td align="center" valign="middle">
-            <a href="https://x.com/ChainforGood" target="_blank">
-                <img src="./materials/images/ChainforGood.png" alt="ChainforGood" width="130" />
-            </a>
-        </td>
-        <td align="center" valign="middle">
-            <a href="https://lxdao.io/" target="_blank">
-                <img src="./materials/images/LXDAO.png" alt="LXDAO" width="130" />
-            </a>
-        </td>
-        <td align="center" valign="middle">
-            <a href="https://ethpanda.org/" target="_blank">
-                <img src="./materials/images/ETHPanda.png" alt="ETHPanda" width="130" />
-            </a>
-        </td>
-    </tr>
-</table>
+Node.js 18+ (推荐 20)
 
-### 🌐 社区支持
+Python 3.10+ (Windows / macOS / Linux 均可)
 
-<table>
-    <tr>
-        <td align="center" valign="middle">
-            <a href="https://x.com/nantangdao/" target="_blank">
-                <img src="./materials/images/nantangdao.png" alt="nantangdao" width="130" />
-            </a>
-        </td>
-        <td align="center" valign="middle">
-            <a href="https://www.blockchainlabs.org/" target="_blank">
-                <img src="./materials/images/blockchainlabs.png" alt="blockchainlabs" width="130" />
-            </a>
-        </td>
-        <td align="center" valign="middle">
-            <a href="https://x.com/SmartDeerGlobal" target="_blank">
-                <img src="./materials/images/SmartDeer.png" alt="SmartDeer" width="130" />
-            </a>
-        </td>
-        <td align="center" valign="middle">
-            <a href="https://x.com/foresight_news?s=21" target="_blank">
-                <img src="./materials/images/foresight_news.png" alt="foresight_news" width="130" />
-            </a>
-        </td>
-    </tr>
-</table>
+(可选) Etherscan API Key
 
-## 08 | 报名列表
+## Step 1: 安装前端依赖
+```
+Bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
 
-<!-- Registration star -->
+## Step 2: 配置环境变量 (可选，但强烈推荐)
+在项目根目录新建 .env.local 文件：
+```
+Ini, TOML
+# .env.local
+ETHERSCAN_API_KEY=你的key
+```
+说明：不填也能跑，但 proof links 可能会走 sample fallback（为了 demo 稳定）。
 
-| 姓名      | GitHub ID | 联系方式 | 组队意愿 | 备注 | 更新资料 |
-| --------- | --------- | -------- | -------- | ---- | -------- |
-| 待更新... | -         | -        | -        | -    | -        |
+## Step 3: 配置 Python 环境 (必须)
+由于仓库不提交虚拟环境，你需要自己建一个。 (推荐 Windows PowerShell)：
 
-<!-- Registration end -->
+1、创建虚拟环境:
+```
+PowerShell
+python -m venv spoon-env
+```
 
-## 09 | 提交名单
+2、激活并安装依赖: 本项目的 Python Graph 依赖以 judge_graph.py 的 import 为准。
+```
+PowerShell
+.\spoon-env\Scripts\python.exe -m pip install --upgrade pip
+.\spoon-env\Scripts\python.exe -m pip install spoonos langchain openai
+```
+(如果有 requirements.txt，请运行 pip install -r requirements.txt；如果没有，请根据报错安装缺少的包即可。)
 
-<!-- Submission star -->
+## Step 4: 启动 dev server
+```
+Bash
+npm run dev
+```
 
-| 项目名称  | GitHub ID | 项目描述 | 项目链接 | 提交时间 |
-| --------- | --------- | -------- | -------- | -------- |
-| 待更新... | -         | -        | -        | -        |
+打开浏览器访问： http://localhost:3000
 
-<!-- Submission end -->
+## 🧪 Verification (验证方式)
+1. Live Proof (有 Etherscan key 且地址有 tx)
 
-## 🔗 快速链接
+输入一个交互丰富的钱包地址 -> 点击审判。
 
-- 📝 [报名表单][REGISTRATION_FORM_LINK]
-- 🎥 [教程视频 - Bilibili][VIDEO_TUTORIAL_BILIBILI]
-- 🎥 [教程视频 - YouTube][VIDEO_TUTORIAL_YOUTUBE]
-- 💬 [社区讨论](https://github.com/CasualHackathon/agenthack/discussions)
-- 🐛 [问题反馈](https://github.com/CasualHackathon/agenthack/issues)
+Merits/Charges 的 🔗 点击应跳到该地址真实 tx（Etherscan）。
 
-## ℹ️ 常见问题 (FAQ)
+2. Fallback / Mock (地址无 tx 或接口返回空)
 
-**Q: 我没有技术背景可以参加吗？**
-A: 完全可以！我们鼓励非技术背景的参赛者参加。你可以专注于产品设计、运营策划、市场营销等方面，或者使用 AI 工具辅助。
+输入 tx 很少或接口查不到的地址。
 
-**Q: 团队人数有限制吗？**
-A: 没有硬性限制，建议 1-5 人组队效率最高。
+系统会显示回退提示（仍可点击 sample proof links，确保 demo 可用）。
 
-**Q: 必须是 Web3 相关项目吗？**
-A: 项目需要与 [ACTIVITY_THEME] 相关即可。
+## 🧰 Troubleshooting (常见问题)
+Q1: proof links 总是指向 sample？
 
-**Q: 代码必须在黑客松期间完成吗？**
-A: 是的，所有代码需要在活动期间提交。可以基于现有框架进行开发。
+A: 说明 live tx hash 未成功拉取。检查：
 
-**Q: 获奖后有什么后续支持？**
-A: [FOLLOW_UP_SUPPORT]
+.env.local 是否存在且 ETHERSCAN_API_KEY 正确。
 
-## 📧 联系我们
+后端是否使用了 Etherscan v2 endpoint。
 
-- **主办方：** 残酷共学
-- **技术支持：** [TECH_CONTACT_EMAIL]
-- **运营协调：** [OPS_CONTACT_EMAIL]
-- **微信社群：** [WECHAT_GROUP_INFO]
-- **Discord：** [DISCORD_LINK]
+该地址是否确实存在 mainnet 交易记录。
 
-## 📜 许可证
+Q2: Python Graph 报错 / 找不到依赖？
 
-[LICENSE_TYPE]
+A: 你需要在 spoon-env 里安装对应依赖：先升级 pip，再按报错逐个安装缺少的包。
+
+Q3: Windows 执行 python 路径不对？
+
+A: 后端默认调用 spoon-env/Scripts/python.exe。确保你在项目根目录创建了名为 spoon-env 的文件夹。
+
+
+## 测试钱包：
+- 0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045（vitalik ✅）
+- 0x742d35Cc6634C0532925a3b844Bc454e4438f44e（Bitfinex wallet 常用示例）
+- 0x28C6c06298d514Db089934071355E5743bf21d60（Binance 热钱包常用示例）
+- 0x564286362092D8e7936f0549571a803B203aAceD（Coinbase 常用示例）
+
+
+## 📚 Standard Next.js Documentation
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+### Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+### Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+---
+
+*Submitted by **ZanyK4502** for SPARK AI Hackathon 2026*
